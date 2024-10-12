@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="fa/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Imperial Motors LLC - Home</title>
+</head>
+<body>
+
+    <div class="">
+             <!-- Navigation section-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top main-bg">
+                <div class="container-fluid p-3">
+                <a class="navbar-brand" href="index.html"><strong>IMPERIAL MOTORS LLC</strong></a>
+                <button class="navbar-toggler  nave-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="route.html">Our Routes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suggest.html">Suggest Route</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn nav-bt" type="submit">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+    
+      <!-- Background image section-->
+        <div class="bg-img sec">
+            <div class="inner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 main-sec mt-5 p-3">
+                            <h1 class="mb-5">The best way to travel across cities in Nigeria.</h1>
+                            <p class="mt-5">Imperial motors is a transport company that is technology driven, and has your safety as our topmost priority. We cover major cities across the country and our professional customer service will always make you want to rely on us again.</p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5 mt-5">
+                            
+                            <form action="">
+                                <h2 class="form-content">Book a Trip</h2>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="TravelFrom" class="form-label form-content">Travelling From</label>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <select name="departure" id="departure" aria-placeholder="Departure Terminal" class="col form-select">
+                                            <option value="" disabled selected>Departure Terminal</option>
+                                            <option value="Ajah">Lagos ==> Ajah</option>
+                                            <option value="badagry">Lagos ==> Badagry</option>
+                                            <option value="iyana">Lagos ==> Iyana-Ipaja</option>
+                                            <option value="Maza-Maza">Lagos ==> Maza-Maza</option>
+                                            <option value="yaba">Lagos ==> Yaba(Jibowu)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="TravelTo" class="form-label form-content">Travelling To</label>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <select name="departure" id="departure" aria-placeholder="Departure Terminal" class="col form-select">
+                                            <option value="" disabled selected>Departure Terminal</option>
+                                            <option value="Ajah">Edo ==> Benin</option>
+                                            <option value="Ajah">FCT Abuja ==> Wuse</option>
+                                            <option value="Ajah">Enugu ==> Enugu</option>
+                                            <option value="Ajah">Imo ==> Owerri</option>
+                                            <option value="Ajah">Delta ==> Asaba</option>
+                                            <option value="Ajah">Rivers ==> Port Harcourt</option>
+                                            <option value="Ajah">Kaduna ==> Kaduna</option>
+                                            <option value="Ajah">Kano ==> Kano</option>
+                                            <option value="Ajah">Plateau ==> Jos</option>
+                                            <option value="Ajah">Borno ==> Maiduguri</option>
+                                            <option value="Ajah">Akwa-Ibom ==> Uyo</option>
+                                            <option value="Ajah">Bayelsa ==> Yenogoa</option>
+                                            <option value="Ajah">Cross-Rivers ==> Calabar</option>
+                                            <option value="Ajah">Kwara ==> Ilorin</option>
+                                            <option value="Ajah">Anambra ==> Onitsha</option>
+                                            <option value="Ajah">Oyo ==> Ibadan</option>
+                                            <option value="Ajah">Osun ==> Osogbo</option>
+                                            <option value="Ajah">Ekiti ==> Akure</option>
+                                            <option value="Ajah">Ogun ==> Ijebu-Ode</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="DepartDate" class="form-label form-content">Departure Date</label>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="adult" class="form-label form-content">Adults</label>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="children" class="form-label form-content">Children</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="number" name="adult" id="adult" class="form-control" value="0">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="number" name="children" id="children" class="form-control" value="0">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <button class="btn nav-bt">Proceed</button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!--End of background section-->
+
+        <!--Service section-->
+        <div>
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col">
+                        <div class="row mt-5">
+                            <div class="col text-center special-txt">
+                                <h2>What Makes Us Special</h2>
+                             
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row mb-5">
+                                            <div class="col-6 text-center special-txt">
+                                                <p class="icons"><i class="fa-solid fa-bus"></i></p>
+                                                <h3>Chartered Service</h3>
+                                            </div>
+                                            <div class="col-6 text-center special-txt">
+                                                <p class="icons"><i class="fa-solid fa-repeat"></i></p>
+                                                <h3>Round Trip Service</h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-5 mt-5">
+                                            <div class="col-6 text-center special-txt">
+                                                <p class="icons"><i class="fa-solid fa-cart-flatbed-suitcase"></i></p>
+                                                <h3>Airport/Hotel Pickup</h3>
+                                            </div>
+                                            <div class="col-6 text-center special-txt">
+                                                <p class="icons"><i class="fa-solid fa-truck-moving"></i></p>
+                                                <h3>Haulage</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="img-fluid"><img src="images/bb.jpg" alt=""></div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Testimonial section-->
+        <div class="bg-col">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col mt-5">
+                        <h2 class="text-center special-txt">User Testimonial</h2>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-6 p-5">
+                       
+                        
+                      <p class="special-txt">Travelling with Imperial transport has been one of the most trilling experience so far. It is so safe and the vehicles are neat and comfortable, with polite staffs. The booking process is smooth. Moving around the cities in the country is safe with Imperial and I will recommend them at any given moment.</p>
+                        <p class="text-end special-txt">John Doe</p>
+                    </div>
+                    <div class="col-md-6 p-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="img-fluid"><img src="images/w1.jpg" alt=""></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-5">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="img-fluid"><img src="images/m1.jpg" alt=""></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-md-6 p-5">
+                       
+                        
+                        <p class="special-txt">Imperial motors have been fantastic. Their route covers major cities across the countries, and their international service are top notch. The buses are always clean, the drivers are professional, and the entire journey experience feels safe and smooth. I must commend their attention to details and quality of service - from booking to arrival, everything is seamless. Weather it is form leisure or for business, Imperial motors is the best to company to go.</p>
+                          <p class="text-end special-txt">John Doe</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+         <!--Footer section-->
+        <div class="foot-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 special-txt text-center mt-5">
+                        <h2 class="mb-5">Subscribe to our Newsletter</h2>
+                        <div class="row">
+                            <div class="col-8 mb-5">
+                                <input type="text" name="" id="" placeholder="Enter your email address" class="form-control col-12">
+                            </div>
+                            <div class="col-4 mb-5">
+                                <button class="col-12 btn foot-bt">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center special-txt mt-5">
+                        <h2 class="mb-5" id="contact">Contact Us</h2>
+                        <p>(+234) 0708 080 0808</p>
+                        <p>(+234) 0708 080 0808</p>
+                        <p>(+234) 0708 080 0808</p>
+                        <p>feedback@imperialsupport.com</p>
+                    </div>
+                    <div class="col-md-4 text-center special-txt mt-5 foot-link">
+                        <h2 class="mb-5">Support</h2>
+                        <p><a href="" data-bs-toggle="modal" data-bs-target="#imperialcondition">Terms & Condition</a></p>
+                        <p><a href="" data-bs-toggle="modal" data-bs-target="#imperialprivacy">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!--MODAL FOR TERMS AND CONDITIONS-->
+<div class="modal fade" id="imperialmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Terms & Conditions</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ol>
+            <li>
+                All Tickets are valid for use ONLY by the individual to whom it has been issued and the bus schedule, date and time for which it is purchased
+            </li>
+            <li>Imperial Motors is not responsible for lost or stolen tickets</li>
+            <li>Our Prices are subject to change without prior notice to guests due to unforeseen economic circumsiances.</li>
+            <li>All fares are payable in Naira (Nigeria) and/or in the local currency equivalent of the country of departure.
+            </li>
+            <li>Our tickets is non-transferrable</li>
+            <li>Tickets already purchased are non-refundable. Tickets can be carried over to be utilized at a future date with validity restricted to within one month of ticket purchase provided the fare amount is the same on the new trip date; any additional diterence will be paid by the customer at our terminal before departure</li>
+            <li>Passengers are expected to send a rerouting/rescheduling request to feedback@imperialsupport.com call our customer care line</li>
+            <li>First rescheduling request will be processed at zero administration charge but subsequent requests attract a charge of Two thousand naira only (2,000) and it must be paid at the departure terminal.</li>
+            <li>Every rerouting request attracts an administrative charge of one thousand naira only (1,000) and passengers are required to make the payment at the departure terminal.</li>
+            <li>All rerouting and rescheduling request must be sent at least four (4) Hours before the departure time stated on the ticket</li>
+            <li>Passengers who miss their bus on scheduled travel date are expected to send a reroute/reschedule request not exceeding four (4) hours after the departure time on their tickets, failure to do so will result to cancellation of ticket without refunds.</li>
+            <li>Pets (animals), Alcohol intake/intoxicated passenger and Smoking is prohibited on all the buses, we only convey humans.</li>
+
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--MODAL FOR PRIVACY POLICY-->
+  <div class="modal fade" id="imperialprivacy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Privacy Policy</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <p>This privacy statement applies to all cardholder data processed by Imperial Motors website or mobile application. GUO Transport mobile application will only request necessary identifiable information to process payment and do not store cardholder’s information provided by the customer, and will only use that information for the specific purposes for which it was provided. GUO Transport will use this information strictly confidential, and will not disclose, sell, or lease the information to third parties unless required by law, or with the written permission of the cardholder.
+
+        As with most websites and application used for payment card transaction services, Imperial Motors company web servers collect web session data used to analyze site trends and gather broad demographic data. Imperial Motors reserves the right to collect certain technical information of customers such as operating system, IP address, web browser software, and URL data through the use of cookies or other technology not linked to personally identifiable information or cardholder data.</p>
+      
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
